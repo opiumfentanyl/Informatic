@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float x,y,z;
+    cout«"Введите значения градусов Цельсия: ";
+    cin»x;
+    float far = (9*x)/5+32;
+    cout«far«endl;
+    return 0;
+}
