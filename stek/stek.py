@@ -10,6 +10,3 @@ exclude = int(input('Введите число элементов, которы�
 for i in range(exclude):
     print(stek.pop())
 print(f'Стек:{stek}')
-
-
-
